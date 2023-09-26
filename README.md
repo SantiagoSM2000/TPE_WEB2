@@ -31,4 +31,5 @@ Esta tabla muestra la estructura de las tablas "Cliente" e "Inmueble", incluyend
   * Estado: VARCHAR - Para almacenar el estado del inmueble (disponible, vendido, alquilado, etc.).
   * Cliente_ID: INT - Clave foránea que hace referencia al Cliente_ID en la tabla Cliente, para establecer la relación entre clientes e inmuebles.
 
+[Esquema_DER.pdf](https://github.com/SantiagoSM2000/TPE_WEB2/files/12727937/Esquema_DER.pdf)
 
