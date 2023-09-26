@@ -1,16 +1,13 @@
 # TPE_WEB2
 Trabajo práctico especial de WEB 2
 
-##Nombre integrantes:
+## Nombre integrantes:
 Santiago Lopez Osornio - osorniosanty@gmail.com
 Santiago San Martín - santisanmax@gmail.com
 
 ## Temática y breve descripción:
 
-SISTEMA DE VENTA DE BIENES INMUEBLES
-
-En esta base de datos, se establece una relación entre la tabla "Cliente" y la tabla "Inmueble" para gestionar y mantener registros de los clientes y las propiedades inmobiliarias asociadas a ellos. Cada entrada en la tabla "Cliente" representa un cliente que puede estar interesado en comprar, alquilar o vender propiedades. Por otro lado, la tabla "Inmueble" contiene información detallada sobre cada propiedad, como dirección, características, precio, estado, etc.
-
+Es una aplicación web de una inmobiliaria destinada a presentar listados de propiedades de distinto tipo para la compra, venta y alquiler de las mismas.
 
 ## Diagrama de entidad relación (DER) 
 
@@ -33,3 +30,5 @@ Esta tabla muestra la estructura de las tablas "Cliente" e "Inmueble", incluyend
   * Precio: DECIMAL (o FLOAT) - Para almacenar el precio del inmueble.
   * Estado: VARCHAR - Para almacenar el estado del inmueble (disponible, vendido, alquilado, etc.).
   * Cliente_ID: INT - Clave foránea que hace referencia al Cliente_ID en la tabla Cliente, para establecer la relación entre clientes e inmuebles.
+
+
